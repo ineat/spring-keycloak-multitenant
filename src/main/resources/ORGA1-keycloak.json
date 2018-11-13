@@ -1,0 +1,5 @@
+{
+    "realm": "ORGA1",
+    "resource": "ORGA1-api",
+    "auth-server-url": "http://localhost:8182/auth/"
+}
