@@ -1,4 +1,4 @@
-# Spring / Keycloak Tutorials
+# Spring / Keycloak Multitenant Tutorial
 
 This is a sandbox / sample project to illustrate the multi-tenant with Keycloak and Spring Boot
 [Multi tenant with Keycloak](http://blog.ineat-conseil.fr/2017/12/securisez-vos-ap…ring-de-keycloak)
