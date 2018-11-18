@@ -33,7 +33,7 @@ public class MultitenantConfiguration extends KeycloakAutoConfiguration {
 		HeaderBasedConfigResolver.setAdapterConfig(keycloakProperties);	}
 
 	@Bean
-	@ConditionalOnClass(name = { "org.apache.catalina.startup.Tomcat" })
+	@ConditionalOnClass(value=org.apache.catalina.startup.Tomcat.class)
 	@Override
 	public TomcatContextCustomizer tomcatKeycloakContextCustomizer() {
 		return new MultitenantTomcatContextCustomizer(m_keycloakProperties);
